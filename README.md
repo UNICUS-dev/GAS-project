@@ -89,6 +89,30 @@ Google Apps Script (GAS) を使用した業務自動化プロジェクト集。G
 
 ---
 
+### 4. [Invoice ChatWork Automation](./invoice-chatwork-automation/)
+
+**概要**: 請求書PDFを自動生成し、ChatWorkで各クライアントに自動送信
+
+**主な機能**:
+- 請求書PDF自動生成
+- 日本語ファイル名の文字化け対策
+- ChatWork API連携
+- クライアント別自動振り分け
+
+**技術**:
+- ChatWork API v2
+- Spreadsheet Export API
+- Drive API
+- パターンマッチング
+
+**効果**:
+- 請求書発行時間: 40分 → 0分（100%削減）
+- 送信ミス: 5% → 0%（完全防止）
+
+[→ 詳細を見る](./invoice-chatwork-automation/)
+
+---
+
 ## 🛠 技術スタック
 
 ### Core Technologies
